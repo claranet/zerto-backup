@@ -27,5 +27,5 @@ options:
 # Run with Docker
 
 ```
-docker run -v $PWD:/backup claranet/zvm_backup [ PATAMS ]
+docker run -v $PWD:/backup claranet/zvm_backup [-h] [--host HOST] [--username USERNAME] --password PASSWORD [--output OUTPUT]
 ```
