@@ -3,7 +3,7 @@
 # Install
 
 ```
-git clone <repo>
+git clone git@github.com:claranet/zerto-backup.git
 pip3 install -r requirements.txt
 ```
 
