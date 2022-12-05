@@ -2,7 +2,7 @@ FROM python:3-slim
 
 LABEL description="Create and save Zerto ZVM Backups" \
       author="Martin Weber <martin.weber@de.clara.net>" \
-      version="0.0.0"
+      version="0.1.0"
 
 VOLUME /backup
 WORKDIR /backup

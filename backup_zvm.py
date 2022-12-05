@@ -6,7 +6,7 @@
 # By Default, the Settings dump is saved as <hostname>_<timestamp>.json in local directory
 
 # Author: Martin Weber <martin.weber@de.clara.net>
-# Version: 0.0.0
+# Version: 0.1.0
 
 import argparse
 import json
