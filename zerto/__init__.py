@@ -15,7 +15,7 @@ class Zerto(object):
         self.username = username
         self.password = password
 
-    from .session import connect
+    from .session import connect, _connect_linux_zvm, _connect_windows_zvm
 
     from .settings import create_backup, fetch_backup
 
